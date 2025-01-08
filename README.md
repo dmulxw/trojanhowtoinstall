@@ -152,7 +152,8 @@ yum install -y wget
 ## 一键安装Trojan脚本
 输入以下命令，回车执行（shift+insert可粘贴）
 ```
-wget -N --no-check-certificate -q -O trojan_install.sh "https://raw.githubusercontent.com/V2RaySSR/Trojan/master/trojan_install.sh" && chmod +x trojan_install.sh && bash trojan_install.shCOPY
+wget -N --no-check-certificate -q -O trojan_install.sh "https://raw.githubusercontent.com/V2RaySSR/Trojan/master/trojan_install.sh" && chmod +x trojan_install.sh && bash trojan_install.sh
+COPY
 ```
 输入1回车
 
