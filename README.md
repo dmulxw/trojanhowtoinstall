@@ -1,5 +1,13 @@
 # 小白科学上网一键Trojan搭建VPN梯子最新2022教程 
-
+debian 11 x64
+## 一键安装Trojan脚本
+输入以下命令，回车执行（shift+insert可粘贴）
+```
+wget -N --no-check-certificate -q -O trojan_autoinstall.sh \
+https://raw.githubusercontent.com/dmulxw/trojanhowtoinstall/main/trojan_autoinstall.sh \
+&& chmod +x trojan_autoinstall.sh \
+&& bash trojan_autoinstall.sh
+```
 # 第一部分：什么是 Trojan
 
 Trojan将流量伪装成用户正常访问网页时的HTTPS流量，防止流量被检测和干扰。敏敢时期，基本上只有Trojan和V2Ray伪装能提供稳如狗的体验。
